@@ -6,4 +6,11 @@ struct Student {
     int roll;
     char dept[50];
 };
+int main() {
+    struct Student s;
+    char event[50];
+
+    printf("=============================================\n");
+    printf("   Amity University - Event Registration    \n");
+    printf("=============================================\n");
 
