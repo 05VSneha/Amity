@@ -13,4 +13,10 @@ int main() {
     printf("=============================================\n");
     printf("   Amity University - Event Registration    \n");
     printf("=============================================\n");
+ printf("Enter your full name: ");
+    fgets(s.name, sizeof(s.name), stdin);
+
+    printf("Enter your roll number: ");
+    scanf("%d", &s.roll);
+    getchar(); // Clear newline
 
